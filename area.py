@@ -8,8 +8,8 @@ def CircleArea(_ray):
     sum=math.pi*_ray*_ray
     return sum
 
-def SquareArea(_base, _hauteur):
-    sum=_base*_hauteur
+def SquareArea(_base):
+    sum=_base*_base
     return sum
 
 def TriangleArea(_base, _hauteur):
